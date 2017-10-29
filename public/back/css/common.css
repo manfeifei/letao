@@ -5,3 +5,56 @@
 .mt_150 h4{
   text-align: center;
 }
+a{
+  text-decoration: none;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+}
+
+.lt_aside{
+  width: 180px;
+  height: 100%;
+  background-color: #222d32;
+  position: absolute;
+}
+
+.lt_aside .brand a{
+  display: block;
+  width: 180px;
+  height: 50px;
+  background-color: #337ab7;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  font-size: 24px;
+}
+.lt_aside .user{
+  height: 150px;
+}
+.lt_aside .user img{
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 30px auto 10px;
+}
+.lt_aside .user p{
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+}
+
+.lt_aside .nav a{
+  display: block;
+  width: 180px;
+  height: 40px;
+  font-size: 14px;
+  color: #ffffff;
+  padding-left: 30px;
+}
