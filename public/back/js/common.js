@@ -11,7 +11,7 @@ $(function () {
   $(document).ajaxStart(function () {
     //让进度条显示出来
     NProgress.start();
-  })
+  });
   
   
   $(document).ajaxStop(function () {
@@ -19,5 +19,10 @@ $(function () {
       //让进度条结束
       NProgress.done();
     }, 500);
+  });
+  
+  //点击分类管理，显示或者隐藏二级分类
+  $(".child").prev().on("click",function () {
+    $(this).next().slideToggle();
   });
 });
